@@ -5,6 +5,6 @@ def nyc_pigeon_organizer(data)
 #  value.each do 
 
  data.each_with_object({}) do |(key, value) final_array|
-   
+   value.each do 
    final_array
 end

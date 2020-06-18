@@ -4,5 +4,5 @@ def nyc_pigeon_organizer(data)
 #  data_hash.each |key, value|
 #  value.each do 
 
- data.each_with_object({}) do |k, v|   
+ data.each_with_object({}) do |(key, value) final_array|   
 end
